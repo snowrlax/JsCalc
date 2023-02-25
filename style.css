@@ -1,0 +1,139 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 23px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+
+    background-color: hsl(224, 28%, 35%);
+
+    text-transform:uppercase;
+}
+
+input {
+    border: none;
+  }
+  input:focus {
+    outline: none;
+    
+  }
+
+.container-fluid {
+    padding: 2% 11%;
+}
+
+.calcBody {
+    /* width: 60%;
+    height: 70%; */
+
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    ;
+}
+
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+
+    background-color: hsl(30, 25%, 89%);
+    /* background-color: hsl(28, 16%, 65%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    width: 68px;
+    margin: 0 6px 0 6px;
+
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 0px 0px hsl(28, 16%, 65%);
+
+    border-radius: 5px;
+
+
+
+}
+
+ul:first-child li:last-child {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 4px 0px 0px hsl(224, 28%, 35%);
+}
+
+ul:last-child li:first-child {
+    margin: 0 0 0 4%;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0px 4px 0px 0px hsl(224, 28%, 35%);
+}
+
+ul:last-child li:last-child {
+    margin: 0 4% 0 0;
+    
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0px 4px 0px 0px hsl(6, 70%, 34%);
+}
+
+ul:last-child {
+    margin-bottom: 2px;
+}
+
+.output {
+    color: hsl(0, 0%, 100%);
+    font-size: 31px;
+    background-color: hsl(268, 71%, 12%);
+    border-radius: 7px;
+    margin: 0 0 5% 0;
+    min-height: 70px;
+}
+
+#inputField {
+    text-align: right;
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(268, 71%, 12%);
+    border: none;
+}
+
+.buttons {
+    
+    background-color:hsl(223, 31%, 20%);
+    padding: 5%;
+    border-radius: 7px;
+}
+
+/* Animation */
+
+.btnAnimation {
+    background-color:  hsl(28, 16%, 65%);
+    transition: 0.1s;
+}
+
+.resetAndDelBtnAnimation {
+    background-color: hsl(224, 28%, 35%) !important;
+    transition: 0.1s;
+}
+
+.equalBtnAnimation {
+    background-color: hsl(6, 70%, 34%) !important;
+    transition: 0.1s;
+}
+
+
+.numberBtns {}
+
+.numberBtn {}
